@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+	<html>
+		<head>
+		<title>Try</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="Template/web/css/myc.css" rel="stylesheet" type="text/css" media="all"/>
+		<link href="Template/web/css/nav.css" rel="stylesheet" type="text/css" media="all"/>
+		<link href='http://fonts.googleapis.com/css?family=Carrois+Gothic+SC' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="Template/web/js/jquery.js"></script>
+		<script type="text/javascript" src="Template/web/js/login.js"></script>
+		<script type="text/javascript" src="Template/web/js/Chart.js"></script>
+		<script type="text/javascript" src="Template/web/js/jquery.easing.js"></script>
+		<script type="text/javascript" src="Template/web/js/jquery.ulslide.js"></script>
+		<link rel="stylesheet" href="Template/web/css/clndr.css" type="text/css" />
+		<script src="Template/web/js/underscore-min.js"></script>
+		<script src="Template/web/js/moment-2.2.1.js"></script>
+		<script src="Template/web/js/clndr.js"></script>
+		<script src="Template/web/js/site.js"></script>
+		<style>
+			.HorizontalList li:hover .VerticalList,.VerticalList li{
+				display:block;
+			}
+			.VerticalList{
+				list-style: none;
+				padding:0px;
+				background: #11A8AB;
+				display:none;
+				position:absolute;
+				z-index:18881;
+			}
+			
+			.VerticalList li{
+				float:none;
+				cursor:pointer;
+			}		
+		</style>
+	</head>
+	<body>			       
+		<div class="wrap">	 
+			<div class="header">
+				<div class='logo_cntainer'>
+					<a href='./'>
+						<i>
+							<img src='Template/web/images/final.ico' alt='myvidhya'/>
+						</i>
+					</a>
+				<div class="header_top">
+					<div class="menu">
+						<a class="toggleMenu" href="#"><img src="Template/web/images/nav.png" alt="" /></a>
+						<ul class="nav HorizontalList">
+							<li class="active"><a href="./">Home</a></li>
+							<li><a href="./?action=school">Schools</a></li>
+							<li><a href="./?action=result">Results</a>
+								<ul class='VerticalList'>
+									<li><a href="./?action=result&class=10">Class X</a></li>
+									<li><a href="./?action=result&class=12">Class XII</a></li>
+									<li><a href="./?action=result&class=all">Internal</a></li>
+								</ul>
+							</li>
+							<li><a href="./?action=compare">Compare</a></li>
+							<li><a href="./?action=ranking">Rankings</a></li>
+							<li><a href="./?action=admission">Admission</a>
+								<ul class='VerticalList'>
+									<li><a href="./?action=admission&param=process">Admission Process</a></li>
+									<li><a href="./?action=admission&param=apply">Apply for admission</a></li>
+								</ul>
+							</li>
+							<li><a href="./?action=scholarship">Scholarships</a>
+								<ul class='VerticalList'>
+									<li><a href="./?action=scholarship&param=central">Central Scholarships</a></li>
+									<li><a href="./?action=scholarship&param=state">State Scholarships</a></li>
+									<li><a href="./?action=scholarship&param=private">Private Scholarships</a></li>
+								</ul>
+							</li>
+							<li><a href="./?action=career">Career</a>
+								<ul class='VerticalList'>
+									<li><a href="./?action=joblist">Job Advertisements</a></li>
+									<li><a href="./?action=appStatus">Application Status</a></li>
+								</ul>
+							</li>
+						</ul>
+						<div class="clear"></div>
+						<script type="text/javascript" src="Template/web/js/responsive-nav.js"></script>
+					</div>
+					<div class="clear"></div>				 
+				</div>
+				</div>
+			</div>	  					     
+		</div>

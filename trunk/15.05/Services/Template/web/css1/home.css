@@ -1,0 +1,129 @@
+div{
+	/*border: 1px solid black;
+	margin: 1px;
+*/}
+
+html{
+	padding:10px;
+	background-color: #e6e6e6;
+}
+
+#logoImage{
+	width:140px;
+	height:60px;
+}
+
+#PageHeader{
+	padding:2px;
+	height:80px;
+	width:auto;
+}
+
+#LogoSection{
+	padding:2px;
+	width:150px;
+	height:auto;
+}
+
+#MenuSection{
+	padding:2px;
+	height:auto;
+	margin-left:160px;
+	margin-right: 300px;
+}
+
+#LoginSection{
+	padding:2px;
+	width:290px;
+	height:auto;
+	font-size:12px;
+}
+
+#LoginSection input{
+	max-width:100px;
+	margin:2px;
+	font-size:12px; 
+}
+
+#PageBody{
+	height:600px;
+	width:auto;
+}
+
+#MainContentSection{
+	height: auto;
+	width: 75%;
+}
+
+#SideBarSection{
+	height: auto;
+	width: 23%;
+}
+
+#PageFooter{
+	height:80px;
+	width:auto;
+}
+
+#FooterMainSection{
+	height: auto;
+	width: 75%;
+}
+
+#SocialContentSection{
+	height: auto;
+	width: 23%;
+}
+
+
+.fl{
+	float:left;
+}
+
+.fr{
+	float:right;
+}
+
+.HorizontalList{
+	display:inline;
+	list-style: none;
+	position:absolute;
+	margin:5px
+}
+
+.HorizontalList li{
+	float:left;
+	width:auto;
+	min-width:100px;
+	padding:5px;
+	margin:1px;
+	background: #abcdef;
+	cursor:pointer;
+	z-index:1000;
+}
+
+.HorizontalList li:hover{
+	background: #fedcba;
+}
+
+.HorizontalList li:hover .VerticalList{
+	display:block;
+}
+
+.VerticalList{
+	list-style: none;
+	padding:0px;
+	margin-top:5px;
+	background: #abcdef;
+	display:none;
+	position:absolute;
+}
+
+.VerticalList li{
+	float:none;
+	margin:0px;
+	min-width:200px;
+	cursor:pointer;
+	z-index:1000;
+	margin-left:-5px;
+}
