@@ -1,5 +1,5 @@
 <?php
-	include $htmP.'Advert.html';
+	include $htmP.'centerImage.html';
 	include $htmP.'schoolList.html';
 	include $htmP.'eventList.html';
 	include $htmP.'newsBoard.html';

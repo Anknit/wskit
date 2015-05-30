@@ -1,5 +1,6 @@
 <?php 
-require_once __DIR__.'/../OperateDB/DbMgrInterface.php';
+$dir	=	dirname(__FILE__);
+require_once $dir.'/../OperateDB/DbMgrInterface.php';
 @extract($_GET);
 switch ($op){
 	case 1:

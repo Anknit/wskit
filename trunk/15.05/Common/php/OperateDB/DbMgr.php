@@ -5,7 +5,8 @@ class DBMgr{
 	//Constructor function to connect and select database.
 	public function DBMgr()
 	{
-		require_once __DIR__.'/DbConfig.php';
+		$dir	=	dirname(__FILE__);
+		require_once $dir.'/DbConfig.php';
 		$this->mysql_Host	=	$host;
 		$this->Port			=	$port;
 		$this->userName		=	$username;
@@ -36,7 +37,8 @@ class DBMgr{
 	
 	private function set_mysqlError($Query, &$DB_OperationError = '')
 	{
-		include_once __DIR__.'./../ErrorHandling.php';
+		$dir	=	dirname(__FILE__);
+		include_once $dir.'./../ErrorHandling.php';
 		$DB_OperationError	=	"";
 		$DB_OperationError	=	mysqli_error($this->connection);
 		ErrorLogging('query: --'.$Query.' -- '.'Error: --'.$DB_OperationError);
