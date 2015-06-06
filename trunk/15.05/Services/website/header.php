@@ -96,7 +96,7 @@
 						<div>
 							<ul class='left-panel-list list-group'>
 								<li class="list-group-item">
-									<div class="panel panel-primary">
+									<div class="panel panel-default">
 										<div class="panel-heading">School Search</div>
 										<div class="panel-body">
 											<form role="search">
@@ -125,7 +125,7 @@
 									</div>
 								</li>
 								<li class="list-group-item">
-									<div class="panel panel-primary">
+									<div class="panel panel-default">
 										<div class="panel-heading">Upcoming Events</div>
 										<div class="panel-body">
 											<form role="search">
@@ -146,7 +146,7 @@
 									</div>
 								</li>
 								<li class="list-group-item">
-									<div class="panel panel-primary">
+									<div class="panel panel-default">
 										<div class="panel-heading">School Ranking</div>
 										<div class="panel-body">
 											<form role="search">
@@ -182,7 +182,7 @@
 									</div>
 								</li>
 								<li class="list-group-item">
-									<div class="panel panel-primary">
+									<div class="panel panel-default">
 										<div class="panel-heading">View Result</div>
 										<div class="panel-body">
 											<form role="search">
@@ -230,20 +230,85 @@
 					</div>
 					<div class='col-md-9 col-sm-12'>
 						<div class='imageSlider'>
+							<div class='slider-controls'>
+								<span class='glyphicon glyphicon-chevron-left'></span>
+								<span class='glyphicon glyphicon-chevron-right'></span>
+							</div>
 							<div class='image-container'>
 								<img src='./images/homeSlider/1.jpg' alt='Web-Service' class='show'/>
 								<img src='./images/homeSlider/2.jpg' alt='Web-Service' class='hidden'/>
 								<img src='./images/homeSlider/3.jpg' alt='Web-Service' class='hidden'/>
 							</div>
-							<div class='slider-controls'>
-								<span class='glyphicon glyphicon-chevron-left'></span>
-								<span class='glyphicon glyphicon-chevron-right'></span>
+						</div>
+						<div class='container-fluid'>
+							<div class="panel panel-default">
+								<div class="panel-heading">Latest News</div>
+								<div class="panel-body">
+									<div class="row">
+										<div class='col-md-4 col-sm-6 col-xs-12'>
+											<div class='thumbnail'>
+											<img src="./images/schoolap.png" alt="">
+												<div class="caption">
+													<h3>News Item</h3>
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+													<p>
+														<span class='text-info'>10 minutes ago</span>
+													</p>
+													<p><a href="#" >Read More</a></p>
+												</div>
+											</div>
+										</div>
+										<div class='col-md-4 col-sm-6 col-xs-12'>
+											<div class='thumbnail'>
+											<img src="./images/schoolap.png" alt="">
+												<div class="caption">
+													<h3>News Item</h3>
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+													<p>
+														<span class='text-info'>10 minutes ago</span>
+													</p>
+													<p><a href="#" >Read More</a></p>
+												</div>
+											</div>
+										</div>
+										<div class='col-md-4 col-sm-6 col-xs-12'>
+											<div class='thumbnail'>
+											<img src="./images/schoolap.png" alt="">
+												<div class="caption">
+													<h3>News Item</h3>
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+													<p>
+														<span class='text-info'>10 minutes ago</span>
+													</p>
+													<p><a href="#" >Read More</a></p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="panel-footer">
+									<a href='./news.php'>See all</a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class='footer container-fluid'></div>
+			<div class='footer container-fluid'>
+				<div class='row'>
+					<div class='col-sm-12 col-md-9'>
+						
+					</div>
+					<div class='col-sm-12 col-md-3'>
+						
+					</div>
+				</div>
+				<div class='row'>
+					<div class='container-fluid center-block'>
+						<p class='center-block text-primary text-center'>&#169; 2015 Designed by Ankit Agarwal</p>
+					</div>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
