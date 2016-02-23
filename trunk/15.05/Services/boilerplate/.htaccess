@@ -342,6 +342,13 @@ AddDefaultCharset utf-8
 
 </IfModule>
 
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+#   RewriteRule "^/articles/([^/]+)" "/index.php?article=$1" [L]
+#   RewriteRule ^/?([a-zA-Z_]+)/([a-zA-Z_]+)$ index.php?dir=$1&file=$2 [L]
+#   RewriteRule "^/?([^/]+)/([^/]+)" "?$1=$2" [PT]
+</IfModule>
+
 # ----------------------------------------------------------------------
 # | Forcing `https://`                                                 |
 # ----------------------------------------------------------------------
